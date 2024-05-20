@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Perros</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../javascript/script.js"></script>
+    <link rel="icon" href="../src/imagenes/favicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <img class="logoempresa" src="../src/imagenes/logoempresa-removebg-preview.png" alt="Logo Todo Perros">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./productos.html" class="inicio">Productos<i class="fa fa-paw" aria-hidden="true"></i></a></li>
+                <li><a href="./encuesta.html">Encuesta</a></li>
+                <li><a href="./adopciones.html">Adopciones</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="seccion1">
+            <h2>¡Los mejores productos para tu mejor amigo! </h2>
+            <p>
+                Entra en el mundo de la felicidad perruna con nuestra amplia gama de productos de alta calidad
+                diseñados para consentir a tu fiel compañero. Desde juguetes que despiertan su instinto de juego
+                hasta camas cómodas para sus dulces sueños, tenemos todo lo que necesitas para hacer que la cola de
+                tu peludo amigo no pare de moverse. Explora nuestra selección y haz que cada día sea una aventura
+                emocionante para tu perro. ¡Hazlo feliz con cada clic!
+            </p>
+        </section>
+
+        <section>
+            <div class="contenedor">
+                <div class="fila">
+                            <div class="producto">
+                                <img src="../src/imagenes/hueso.png" alt="Producto 1">
+                                <div class="descripcion">
+                                    <h2>Juguete masticable</h2>
+                                    <p>
+                                        Perfecto para mantener a tu perro entretenido y cuidar su salud dental.
+                                    </p>
+                                        <button onclick="botonPulsado(this)" data-destino="https://www.amazon.es/Ruilogod-impresi%C3%B3n-amarillo-chirrido-juguete/dp/B0B1J5VFRX">Comprar ahora</button>
+                                </div>
+                            </div>
+                       
+                            <div class="producto">
+                                <img src="../src/imagenes/cama.png" alt="Producto 2">
+                                <div class="descripcion">
+                                    <h2>Cama cómoda</h2>
+                                    <p>
+                                        Una cama suave y acogedora para que tu perro descanse como se merece.
+                                    </p>
+                                        <button onclick="botonPulsado(this)" data-destino="https://jardiboutique.com/es/cojin-para-perros/6141-cama-harvey-redonda-blanca-negra-o-50-cm-para-gato-y-perro-pequeno-.html">Comprar ahora</button>
+                                </div>
+                            </div>
+                </div>
+                <div class="fila">
+                   
+                            <div class="producto">
+                                <img src="../src/imagenes/antipulgas.png" alt="Producto 3">
+                                <div class="descripcion">
+                                    <h2>Collar antipulgas</h2>
+                                    <p>
+                                        Scalibor es un collar antiparasitario para perros efectivo durante 12 meses,
+                                        perfecto para proteger a tu mascota de las garrapatas, las pulgas y el
+                                        flebotomo.
+                                    </p>
+                                        <button onclick="botonPulsado(this)" data-destino="https://www.kiwoko.com/higiene-perro/scalibor-collar-antiparasitario-para-perros/MSD178993.html?gad_source=1&gclid=Cj0KCQjwxeyxBhC7ARIsAC7dS39udyBcMXZu0hVSPYB-QXrzAPGOevxOrb12NrQdT072OW1j4rNUw68aAjRREALw_wcB">Comprar ahora</button>
+                                </div>
+                            </div>
+                        
+                            <div class="producto">
+                                <img src="../src/imagenes/chuches.png" alt="Producto 4">
+                                <div class="descripcion">
+                                    <h2>Snack masticable</h2>
+                                    <p>
+                                      Sirven de entretenimiento y premio mientras cuidan los dientes, los limpian, previene
+                                        el mal aliento y reducen la formación de sarro y placa.
+                                    </p>
+                                        <button onclick="botonPulsado(this)" data-destino="https://www.tiendanimal.es/pedigree-dentastix-snacks-dentales-para-perros-medianos/PED103986.html?gad_source=1&gclid=Cj0KCQjwxeyxBhC7ARIsAC7dS39zAjOKzNY68lzXSBvRU0NtjBYmnRhznOektUBAHRHvOZPhulxSZSMaAtsDEALw_wcB">Comprar ahora</button>
+                                </div>
+                            </div>
+                </div>
+                <div class="fila">
+                            <div class="producto">
+                                <img src="../src/imagenes/libra.png" alt="Producto 3">
+                                <div class="descripcion">
+                                    <h2>Pienso Libra Adult</h2>
+                                    <p>
+                                        El pienso Libra de salmón está formulado para perros adultos de todas las razas
+                                        que tengan estómago delicado o sensible. 
+                                    </p>
+                                        <button onclick="botonPulsado(this)" data-destino="https://www.kiwoko.com/perros/comida-para-perros/pienso-seco-para-perros/pienso-de-pescado/libra-adult-salmon-pienso-para-perros/LIB921663_M.html">Comprar ahora</button>
+                                </div>
+                            </div>
+                            <div class="producto">
+                                <img src="../src/imagenes/arnes.png" alt="Producto 4">
+                                <div class="descripcion">
+                                    <h2>Arnés neón</h2>
+                                    <p>
+                                        Cómodo y resistente para tu mascota.
+                                    </p>
+                                        <button onclick="botonPulsado(this)" data-destino="https://www.kiwoko.com/perros/accesorios-para-perros/x-trm-cronos-neon-flash-arnes-fucsia-para-perros-/TRMPE69213_M.html">Comprar ahora</button>
+                                </div>
+                            </div>
+                </div>
+        
+            </div>
+        </section>
+        <button id="botonArriba" onclick="irArriba()">Ir arriba</button>
+        <img class="abajo" src="../src/imagenes/fondperros.png" alt="Pie de pág de perros">
+    </main>
+    <footer>
+        <p>
+            &copy; 2024 Todo Perros by Erika Alessio <a href="mailto:dudas@todoperros.com">Contacto</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>

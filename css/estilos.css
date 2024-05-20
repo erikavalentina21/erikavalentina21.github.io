@@ -1,0 +1,510 @@
+/* Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{ 
+    padding: 1vw ; 
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../src/imagenes/job562-nunoon-02.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+header{
+    width: auto;
+    height: auto;
+    background: none;   
+}
+
+.seccion1{
+    background:rgba(231, 82, 117, 0.7);
+    border-radius: 1vw;
+    padding: 3vh;
+}
+
+.frase h1{
+    font-size: 200%;
+    font-weight: 600;
+    font-family: "Bebas Neue";
+    line-height: 85px;
+    margin-bottom: 25px;
+    -webkit-animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    }
+    /* Fuente: animista.net */
+    @-webkit-keyframes tracking-in-expand-fwd-top {  
+        0% {
+          letter-spacing: -0.5em;
+          -webkit-transform: translateZ(-700px) translateY(-500px);
+                  transform: translateZ(-700px) translateY(-500px);
+          opacity: 0;
+        }
+        40% {
+          opacity: 0.6;
+        }
+        100% {
+          -webkit-transform: translateZ(0) translateY(0);
+                  transform: translateZ(0) translateY(0);
+          opacity: 1;
+        }
+      }
+      @keyframes tracking-in-expand-fwd-top {
+        0% {
+          letter-spacing: -0.5em;
+          -webkit-transform: translateZ(-700px) translateY(-500px);
+                  transform: translateZ(-700px) translateY(-500px);
+          opacity: 0;
+        }
+        40% {
+          opacity: 0.6;
+        }
+        100% {
+          -webkit-transform: translateZ(0) translateY(0);
+                  transform: translateZ(0) translateY(0);
+          opacity: 1;
+        }
+      }
+      
+.centrar{
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*Fuente: https://www.cssportal.com/css3-menu-generator/ */
+
+.menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;       
+}
+
+.inicio{
+    background-color: #e75275;
+    border-radius: 1vw;
+}
+
+.logoempresa{
+    width: 8%;
+    height: auto;
+    border-radius: 10px;
+    -webkit-animation: rotate-scale-up 0.25s linear both;
+	        animation: rotate-scale-up 0.25s linear both;
+}
+
+/* Fuente: animista.net */
+@-webkit-keyframes rotate-scale-up {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0);
+              transform: scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(2) rotateZ(180deg);
+              transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateZ(360deg);
+              transform: scale(1) rotateZ(360deg);
+    }
+  }
+  @keyframes rotate-scale-up {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0);
+              transform: scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(2) rotateZ(180deg);
+              transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateZ(360deg);
+              transform: scale(1) rotateZ(360deg);
+    }
+  }
+.productomenu{
+    background-color: #e75275;
+    border-radius: 1vw;
+}
+.menu ul {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 10%;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 10px 2%;
+}
+
+.menu ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: all 0.3s ease;
+    font-style:oblique;
+}
+
+.menu ul li a:hover {
+    background-color: #e75275;
+    border-radius: 1vw;
+}
+
+main {
+    padding: 20px;
+}
+
+.raza {
+    border-radius: 10px;
+    border: solid #e88fa4;
+    padding: 5px;
+    margin-bottom: 5px;  
+    background:rgba(234, 171, 218, 0.7);
+    color: black;
+    display: flex;
+    transition: all 0.2s ease;
+    
+    
+}
+.raza:hover{
+    border: 8px solid #d25fa2;
+    border-style:groove;
+    border-radius: 10px;
+
+}
+
+.raza img {
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #e88fa4;
+    color: black; 
+    text-align: center;
+    padding: 1% ;
+    margin: 0;
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center; 
+
+}
+footer p a {
+    color: black;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color: rgb(12, 4, 129);
+    text-decoration: underline;
+}
+
+label{
+    font-weight: bold;
+}
+
+.abajo{  
+    display: block;
+    margin: 0 auto; 
+    height: auto;
+    width: 20%;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.producto {
+    display: block;
+    width: 25rem;
+    height: auto;
+    background-color: #fffff0;
+    border-radius: 5%;
+    box-shadow: 0px 2px 5px black;
+    text-align: center;
+    gap: 100px; 
+}
+
+.producto:hover{
+    animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+}
+/* Fuente: animista.net */
+@keyframes shadow-drop-center {
+    0% {
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.9);
+    }
+  }
+
+.producto img {
+    width: 8em;
+    height: 8em;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 0;
+    border-radius: 8px;
+}
+
+.descripcion{
+    padding: 5%;
+    text-align: center;
+
+}
+
+.producto h2 {
+    font-size: 17px;
+    color: #1a4f7f; 
+    margin-bottom: 1px;
+}
+
+.producto p {
+    font-size: 15px;
+    color: #333333; 
+    margin-bottom: 15px;
+    padding:10px;
+}
+
+.producto button {
+    padding: 10px 20px;
+    background-color: #6794d2; 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size: 15px; 
+}
+
+.producto button:hover {
+    background-color: #0d2d4d; 
+}
+
+
+form{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5%;   
+    background-image: url(../src/imagenes/aaa.jpg);
+    background-repeat:space;
+    background-position: center center;
+}
+
+input{
+    width: 50%;
+    text-align: center;
+} 
+
+.botonform{
+    padding: 10px 20px;
+    background-color: #8badda; 
+    color: black; 
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size: 75%;
+    object-fit: contain;
+    width: 50%;
+}
+
+.fila{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:2em;
+}
+
+.protectora {
+    display: block;
+    width: 25rem;
+    height: auto;
+    background-color: #fffff0;
+    border-radius: 5%;
+    box-shadow: 0px 2px 5px black;
+    text-align: center;
+    object-fit: contain;      
+}
+
+.protectora:hover{
+    animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+}
+
+.protectora iframe {
+    width: 100%;
+    height: 18em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 0;
+    border-radius: 8px;
+}
+
+.protectora h2 {
+    font-size: 100%;
+    color: #1a4f7f; 
+    margin-bottom: 1px;
+}
+
+.protectora p {
+    font-size: 75%;
+    color: #333333; 
+    margin-bottom: 2%;
+    padding:2%;
+}
+
+.protectora button {
+    padding: 10px 20px;
+    background-color: #6794d2; 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size: 75%;
+    object-fit: contain;
+}
+
+.protectora button:hover {
+    background-color: #0d2d4d;    
+}
+
+#botonArriba {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tablaperros {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    border: solid #e88fa4;
+    text-align: center;   
+}
+
+.tablaperros th, .tablaperros td {
+    padding: 12px 15px;
+}
+
+.tablaperros th {
+    background-color: #e88fa4;
+    color:black;
+    font-weight: 500;
+}
+
+.tablaperros tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.tablaperros tr:hover {
+    background-color: #ddd;
+}
+
+.noticia {
+    max-width: 100%;
+    padding: 20px;
+    background:rgba(255, 253, 255, 0.9);
+    border-radius: 8px;
+    line-height: 1.6;
+    position: relative;
+}
+
+.noticiatitulo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 2%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.subtitulo {
+    font-size: 1em;
+    color: #2c3e50;
+    margin-bottom: 2%;
+}
+
+.fecha {
+    font-size: 0.8em;
+    color: #7f8c8d;
+    margin-bottom: 1em;
+    font-style: italic;
+}
+
+.contenido {
+    font-size: 1em;
+    color: #2c3e50;
+    text-align: justify;
+}
+
+/* Diseño responsive */
+@media screen and (max-width: 768px)  {
+    .producto img {
+
+        object-fit: contain;
+    }
+    form {
+        width: 80%;
+        transition: all ease 1s;
+    }
+    .logoempresa{
+        width: 30%;
+    }
+    .abajo{
+        width: 30%;
+    }
+    .menu ul {
+        padding-right: 0;
+    }
+    .producto a{
+        display: table;
+        width: 100%;
+    }
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width:100% ;  
+    }  
+    .raza{
+        border-radius: 10px;
+        border: solid #e88fa4;
+        padding: 5px;
+        margin-bottom: 5px;  
+        background:rgba(234, 171, 218, 0.7);
+        color: black;
+        display: flex;
+        flex-direction: column;
+        width:100% ;
+        text-align: center;
+    }
+    .raza img{
+        margin: auto;
+    }
+    
+}
+
+

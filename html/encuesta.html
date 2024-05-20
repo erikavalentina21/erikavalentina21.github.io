@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo Perros</title>
+        <link rel="stylesheet" href="../css/estilos.css">
+        <script src="../javascript/script.js"></script>
+        <link rel="icon" href="../src/imagenes/favicon.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+    </head>
+<body>
+    <header>
+        <nav class="menu">
+            <img  class="logoempresa" src="../src/imagenes/logoempresa-removebg-preview.png" alt="Logo Todo Perros" >
+            <ul>
+                <li><a href="../index.html" >Inicio</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./encuesta.html" class="inicio" >Encuesta<i class="fa fa-paw" aria-hidden="true"></i></a></li>
+                <li><a href="./adopciones.html" >Adopciones</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="seccion1">
+        <h2>¿Nos echas una pata?</h2>
+        <p>
+            En Todo Perros, trabajamos por un mundo pet friendly, pero para esto aun queda un laaaargo camino...
+        <br><br>
+            Estamos haciendo un estudio de población dirigido a cubrir las necesidades del mundo canino. Por favor, tómate un tiempo en contestar nuestra breve encuesta, nos será muy útil! 
+        </p>
+    </section>
+        
+    <form id="miform" action="#" method="POST">
+        <h2>Rellene la encuesta</h2>
+        <label for="nombre">Nombre</label>
+        <br><br>
+        <input class="txt" type="text" name="nombre" size="10"  id="nombre">
+        <br><br>  
+        <label for="tlf">Teléfono</label>
+        <br><br>
+        <input class="txt"  type="tel" name="tlf" size="10"  id="tlf">
+        <br><br>
+        <label for="email">Email:</label><br>
+        <input class="txt"  type="text" id="email" name="email" size="11">
+        <br><br>
+        <label for="masc">¿Cuántas mascotas tienes?</label>
+        <br><br>
+        <select name="masc" id="masc" size="1">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5+">5 o más</option>
+        </select>
+        <br><br>
+        <label for="marcapienso">¿Qué marca de pienso consumen?</label>
+        <br><br>
+        <input class="txt"  type="text" name="marcapienso" size="2" placeholder="Ej: Royal Canin" id="marcapienso">
+        <br><br>
+        <button class="botonform" type="button" onclick="alert('Formulario enviado!')">Enviar encuesta</button> 
+        <br><br>
+        <input class="botonform" type="button" value="Borrar" onclick="reset()">
+    </form>
+    <button id="botonArriba" onclick="irArriba()">Ir arriba</button>
+    <img class=abajo src="../src/imagenes/fondperros.png" alt="Pie de pág de perros">
+    <footer>
+        <p>
+            &copy; 2024 Todo Perros by Erika Alessio <a href="mailto:dudas@todoperros.com">Contacto</a>
+        </p>   
+    </footer>
+</body>
+
+</html>
